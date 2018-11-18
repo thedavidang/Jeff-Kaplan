@@ -2,7 +2,7 @@
 h1{
 	background-color:#FA9C1D;
 	color: #4A4C4E;
-	font: bold normal 24px Arial, Helvetica, sans-serif;
+	font: bold normal 38px Arial, Helvetica, sans-serif;
 	line-height: 1.6em
 	margin 0
 	
@@ -11,6 +11,7 @@ h1{
 body{
 	background-color:#4A4C4E;
 	color: #FFF;
+	font: normal 16px Arial, Helvetica, sans-serif;
 }
 
 .title{
@@ -46,10 +47,31 @@ background-size: cover;
 background-position: center;
 left: 0;
 top: 50%;
-transform: translateY(-50%);
+transform: translateY(-55%);
  }
+li{
+	margin:10px;
+}
 
+/* unvisited link */
+a:link {
+    color: orange;
+}
 
+/* visited link */
+a:visited {
+    color: orange;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
 
 /*
 background-image:url('JeffBoy.jpg');
