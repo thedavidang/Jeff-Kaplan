@@ -7,6 +7,7 @@ h1{
 	margin 0
 	
 }
+
 body{
 	background-color:#4A4C4E;
 	color: #FFF;
@@ -25,6 +26,31 @@ display: block;
 max-width: 100%;
 margin:0 auto;
 }
+
+ul.OverwatchLogo{
+list-style: none;
+    padding-left: 0;
+}
+ul.OverwatchLogo li{
+	position: relative;
+    padding-left: 20px;
+}
+
+ul.OverwatchLogo li:before {
+content: '';
+width: 15px;
+height: 15px;
+position: absolute;
+background-image: url('OverwatchLogo.jpg');
+background-size: cover;
+background-position: center;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+ }
+
+
+
 /*
 background-image:url('JeffBoy.jpg');
 background-repeat: no-repeat;
